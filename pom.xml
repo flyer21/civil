@@ -17,8 +17,8 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>build/civil-boot-dependencies</module>
-		<module>build/civil-boot-starter-parent</module>
+		<module>boot/civil-boot-dependencies</module>
+		<module>boot/civil-boot-starter-parent</module>
 		<module>saas/gateway-server</module>
 		<module>saas/auth-server</module>
 		<module>saas/pub-server</module>
