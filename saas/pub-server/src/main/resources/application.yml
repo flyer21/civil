@@ -1,0 +1,18 @@
+spring:
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        username: nacos
+        password: nacos
+        shared-configs:
+          - data-id: pub-server
+            group: DEFAULT_GROUP1
+server:
+  port: 9001

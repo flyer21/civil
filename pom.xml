@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.civil</groupId>
+	<artifactId>civil-build</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>civil-build</name>
+	<description>civil-build project for Spring Boot</description>
+	<properties>
+		<java.version>8</java.version>
+		<spring-cloud.version>2020.0.1</spring-cloud.version>
+		<maven.test.skip>true</maven.test.skip>
+	</properties>
+
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>build/civil-boot-dependencies</module>
+		<module>build/civil-boot-starter-parent</module>
+		<module>saas/gateway-server</module>
+		<module>saas/auth-server</module>
+		<module>saas/pub-server</module>
+
+
+	</modules>
+
+
+</project>
